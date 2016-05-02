@@ -45,10 +45,10 @@ gulp.task('scripts', function() {
 * Watch task
 **************************************************/
 gulp.task('watch', function() {
-    gulp.watch('./**/*.html');
-    gulp.watch('./**/*.php');
-    gulp.watch('./**/*.scss', 'styles');
-    gulp.watch('./assets/scripts/**/*.js', 'scripts');
+    gulp.watch('*.html').on('change', browserSync.reload);
+    gulp.watch('**/*.php').on('change', browserSync.reload);
+    gulp.watch('assets/styles/**/*.scss', ['styles']);
+    gulp.watch('assets/scripts/**/*.js', ['scripts']);
 });
 
 /**************************************************
@@ -57,7 +57,7 @@ gulp.task('watch', function() {
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
-            baseDir: '',
+            baseDir: './',
         }
     });
 });

@@ -1,0 +1,84 @@
+/**************************************************
+* Cover section
+**************************************************/
+.cover {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cover-image {
+    display: block;
+    z-index: -10;
+    // position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.site-description {
+    font-size: px-rem(48px);
+    text-transform: uppercase;
+    color: white;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+    .site-description {
+        font-size: px-rem(32px);
+        width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .site-description {
+        font-size: px-rem(32px);
+        width: 250px;
+    }
+}
+
+/**************************************************
+* Abou section
+**************************************************/
+.about {
+    text-align: center;
+    // padding-bottom: 16px;
+}
+
+/**************************************************
+* Portfolio section
+**************************************************/
+.portfolio {
+    background: $primary-color;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .section-title {
+        margin-top: 0;
+        color: white;
+    }
+}
+
+.job-list {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1020px;
+    padding: 0;
+    list-style: none;
+}
+
+.job-thumbnail {
+    max-width: 33%;
+    height: 313px;
+    background: $quartenary-color;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+
+    &:nth-child(3n+3) {
+        margin-right: 0;
+    }
+}
