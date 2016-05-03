@@ -41,7 +41,7 @@
 }
 
 /**************************************************
-* Abou section
+* About section
 **************************************************/
 .about {
     text-align: center;
@@ -65,20 +65,128 @@
 .job-list {
     margin: 0 auto;
     padding: 0 10px;
-    width: 1020px;
-    padding: 0;
+    max-width: 1020px;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .job-thumbnail {
-    max-width: 33%;
-    height: 313px;
+    width: 310px;
+    height: 310px;
     background: $quartenary-color;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    float: left;
+    // margin-bottom: 20px;
+    margin: 10px
+}
 
-    &:nth-child(3n+3) {
-        margin-right: 0;
+.job-description {
+    color: white;
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1020px;
+    text-align: center;
+    position: relative;
+    display: none;
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.job-close {
+    position: absolute;
+    display: block;
+    background: red;
+    width: 32px;
+    height: 32px;
+    top: 5px;
+    right: 10px;
+}
+
+.job-active {
+    display: block;
+}
+
+@media (max-width: 1010px) {
+    .job-thumbnail {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 920px) {
+    .job-thumbnail {
+        width: 255px;
+        height: 255px;
+    }
+}
+
+@media (max-width: 850px) {
+    .job-thumbnail {
+        width: 225px;
+        height: 225px;
+    }
+}
+
+@media (max-width: 760px) {
+    .job-thumbnail {
+        width: 210px;
+        height: 210px;
+    }
+}
+
+@media (max-width: 700px) {
+    .job-thumbnail {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/**************************************************
+* Contact section
+**************************************************/
+
+
+/**************************************************
+* Footer section
+**************************************************/
+.social {
+    background: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 32px 0;
+
+    .section-title {
+        color: white;
+        margin-top: 0;
+    }
+}
+
+.social-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: px-rem(32px);
+    line-height: 1;
+
+    li {
+        display: inline;
+        margin-right: 20px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        position: absolute;
+        color: red;
+        left: -100%;
     }
 }
