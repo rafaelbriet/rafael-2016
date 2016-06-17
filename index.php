@@ -97,7 +97,7 @@
 
             <section class="contact" id="contact">
                 <h3 class="section-title">Entre em contato</h3>
-                    <form class="form-contact" action="index.html" method="post">
+                    <form class="form-contact" action="mail.php" method="post">
                         <span>
                             <label for="name">Nome:</label>
                             <input type="text" name="name" value="" class="name" id="name">
@@ -112,7 +112,7 @@
                         </span>
 
                         <span class="btn">
-                            <input type="submit" name="name" value="Enviar">
+                            <input type="submit" name="submit" value="Enviar">
                         </span>
 
                     </form>
@@ -131,7 +131,5 @@
             </section>
 
         </footer>
-
-        <script type="text/javascript" src="assets/scripts/portfolio.js"></script>
     </body>
 </html>
