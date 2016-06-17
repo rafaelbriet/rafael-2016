@@ -652,18 +652,19 @@ p {
     padding: 8px; }
   .contact input {
     height: 64px; }
-    .contact input[type="submit"] {
-      border: none;
-      background-color: #e8522c;
-      color: white;
-      text-align: center;
-      cursor: pointer;
-      transition: background-color .3s;
-      width: 200px;
-      margin: 0 auto;
-      display: block; }
-      .contact input[type="submit"]:hover {
-        background-color: #cb3b16; }
+  .contact .submit-button {
+    height: 64px;
+    border: none;
+    background-color: #e8522c;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .3s;
+    width: 200px;
+    margin: 0 auto;
+    display: block; }
+    .contact .submit-button:hover {
+      background-color: #cb3b16; }
   .contact textarea {
     height: 200px; }
 

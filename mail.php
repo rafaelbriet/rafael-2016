@@ -4,30 +4,31 @@
         $to = "contato@rafaelbriet.com.br";
         $subject = "Contato";
 
-        if (empty($_POST['name'])) {
-            echo "Você precisa disser qual é o seu nome. <br>";
-        } else {
-            $name = htmlspecialchars($_POST['name']);
+        $name = htmlspecialchars($_POST['name']);
+        $email = htmlspecialchars($_POST['email']);
+        $message = htmlspecialchars($_POST['message']);
+
+        if (empty($name)) {
+            $nameError = "Você precisa disser seu nome.";
         }
 
-        if (empty($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-            echo "Você precisa fornecer um email de válido. <br> ";
+        if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $emailError = "Você precisa fornecer um email de válido.";
         } else {
-            $email = htmlspecialchars($_POST['email']);
+            $validEmail = $email;
         }
 
-        if (empty($_POST['message'])) {
-            echo "Qual a sua mensagem? <br>";
-        } else {
-            $message = htmlspecialchars($_POST['message']);
+        if (empty($message)) {
+            $messageError = "Sobre o que você quer conversar?";
         }
 
         $headers = "From: $name <$email>";
 
-        // Send the Mail
-        if (mail($to, $subject, $message, $headers)) {
-            echo "Mensagem enviada com sucesso.";
-        } else {
-            echo "A mensagem não foi enviada. Tente novamente mais tarde.";
+        if ($name && $validEmail && $message) {
+            if (mail($to, $subject, $message, $headers)) {
+                echo "Mensagem enviada com sucesso.";
+            } else {
+                echo "A mensagem não foi enviada. Tente novamente mais tarde.";
+            }
         }
     }

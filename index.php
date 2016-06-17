@@ -45,7 +45,7 @@
                 <h3 class="section-title">O que já fiz.</h3>
                 <ul class="job-list">
                     <li class="job-thumbnail">
-                        <img src="assets/images/job.jpg" alt="" />
+                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
                         <div class="job-description">
                             <h3>Nome do Projeto</h3>
                             <p>Descrição curta do que foi feito.</p>
@@ -53,7 +53,7 @@
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <img src="assets/images/job.jpg" alt="" />
+                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
                         <div class="job-description">
                             <h3>Nome do Projeto</h3>
                             <p>Descrição curta do que foi feito.</p>
@@ -61,7 +61,7 @@
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <img src="assets/images/job.jpg" alt="" />
+                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
                         <div class="job-description">
                             <h3>Nome do Projeto</h3>
                             <p>Descrição curta do que foi feito.</p>
@@ -69,7 +69,7 @@
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <img src="assets/images/job.jpg" alt="" />
+                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
                         <div class="job-description">
                             <h3>Nome do Projeto</h3>
                             <p>Descrição curta do que foi feito.</p>
@@ -77,7 +77,7 @@
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <img src="assets/images/job.jpg" alt="" />
+                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
                         <div class="job-description">
                             <h3>Nome do Projeto</h3>
                             <p>Descrição curta do que foi feito.</p>
@@ -85,7 +85,7 @@
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <img src="assets/images/job.jpg" alt="" />
+                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
                         <div class="job-description">
                             <h3>Nome do Projeto</h3>
                             <p>Descrição curta do que foi feito.</p>
@@ -97,7 +97,7 @@
 
             <section class="contact" id="contact">
                 <h3 class="section-title">Entre em contato</h3>
-                    <form class="form-contact" action="mail.php" method="post">
+                    <form class="form-contact" action="" method="">
                         <span>
                             <label for="name">Nome:</label>
                             <input type="text" name="name" value="" class="name" id="name">
@@ -112,7 +112,7 @@
                         </span>
 
                         <span class="btn">
-                            <input type="submit" name="submit" value="Enviar">
+                            <button type="button" name="button" class="submit-button">Enviar</button>
                         </span>
 
                     </form>
@@ -131,5 +131,7 @@
             </section>
 
         </footer>
+
+        <script type="text/javascript" src="assets/scripts/mail.js"></script>
     </body>
 </html>
