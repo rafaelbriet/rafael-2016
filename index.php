@@ -97,25 +97,39 @@
 
             <section class="contact" id="contact">
                 <h3 class="section-title">Entre em contato</h3>
-                    <form class="form-contact" action="" method="">
-                        <span>
-                            <label for="name">Nome:</label>
-                            <input type="text" name="name" value="" class="name" id="name">
-                        </span>
-                        <span>
-                            <label for="email">E-mail:</label>
-                            <input type="text" name="email" value="" class="email" id="email">
-                        </span>
-                        <span>
-                            <label for="message">Mesagem:</label>
-                            <textarea name="message" id="message" class="message" rows="8" cols="40"></textarea>
-                        </span>
+                <form class="form-contact" action="" method="">
+                    <span class="input-container">
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" value="" class="name" id="name">
+                        <p class="error-message hide">Você precisa disser qual é o seu nome.</p>
+                    </span>
+                    <span class="input-container">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" value="" class="email" id="email">
+                        <p class="error-message hide">Você precisa fornecer um endereço de e-mail válido.</p>
+                    </span>
+                    <span class="input-container">
+                        <label for="message">Mesagem:</label>
+                        <textarea name="message" id="message" class="message" rows="8" cols="40"></textarea>
+                        <p class="error-message hide">Você precisa digitar uma mensagem.</p>
+                    </span>
 
-                        <span class="btn">
-                            <button type="button" name="button" class="submit-button">Enviar</button>
-                        </span>
+                    <span class="btn">
+                        <button type="button" name="button" class="submit-button">Enviar</button>
+                    </span>
 
-                    </form>
+                </form>
+
+                <div class="send-success hide">
+                    <p>
+                        Sua mensagem foi enviada com sucesso!
+                    </p>
+                </div>
+
+                <div class="send-error hide">
+                    <p>
+                        Sua mensagem não pode ser enviada no momento, por favor tente novamente mais tarde. Você também pode enviar a mensagem através de seu aplicativo de e-mail favorito para <a href="mailto:contato@rafaelbriet.com.br?subject=contato">contato@rafaelbriet.com.br</a>.
+                    </p>
                 </div>
             </section>
         </main>
@@ -124,9 +138,9 @@
             <section class="social">
                 <h3 class="section-title">Siga-me nas redes sociais.</h3>
                 <ul class="social-links">
-                    <li class="icon-linkedin-square"><a href="#">LinkdIn</a></li>
-                    <li class="icon-instagram"><a href="#">Instagram</a></li>
-                    <li class="icon-behance-square"><a href="#">Behance</a></li>
+                    <li class="icon-linkedin-square"><a href="https://linkedin.com/in/rafaelbriet">LinkdIn</a></li>
+                    <li class="icon-instagram"><a href="https://www.instagram.com/rafael_briet/">Instagram</a></li>
+                    <li class="icon-behance-square"><a href="https://www.behance.net/rafaelbriet">Behance</a></li>
                 </ul>
             </section>
 

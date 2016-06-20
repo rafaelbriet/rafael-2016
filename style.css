@@ -668,6 +668,41 @@ p {
   .contact textarea {
     height: 200px; }
 
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.input-container {
+  position: relative; }
+
+.error-message {
+  background: #E33939;
+  border: 1px solid #891313;
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: -6px 0 0 0; }
+  .error-message::before {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #E33939; }
+
+.input-error {
+  border: 1px solid #891313 !important;
+  box-shadow: 0 0 5px #E33939; }
+
 /**************************************************
 * Footer section
 **************************************************/
