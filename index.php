@@ -49,54 +49,54 @@
                 </div>
             </section>
             <section class="portfolio" id="portfolio">
-                <h3 class="section-title">O que já fiz.</h3>
+                <h3 class="section-title">O que já fiz</h3>
                 <ul class="job-list">
                     <li class="job-thumbnail">
-                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
+                        <img src="content/images/Dingo_Arte_Jornal.jpg" alt="" />
                         <div class="job-description">
-                            <h3>Nome do Projeto</h3>
-                            <p>Descrição curta do que foi feito.</p>
-                            <a href="#">Projeto completo no Behance.</a>
+                            <h3>Restaurante Dingo</h3>
+                            <p>Dingo é um restaurante que serve essencialmente carnes australianas como avestruz, canguru, crocodilo e coelhos.</p>
+                            <a href="https://www.behance.net/gallery/38650651/Restaurante-Dingo" target="_blank">Projeto completo no Behance.</a>
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
+                        <img src="content/images/Cartaz_Festup.jpg" alt="" />
                         <div class="job-description">
-                            <h3>Nome do Projeto</h3>
-                            <p>Descrição curta do que foi feito.</p>
-                            <a href="#">Projeto completo no Behance.</a>
+                            <h3>Cartaz 29º Fest’Up</h3>
+                            <p>O Fest’Up é um evento para estudantes de publicidade promovido pela APP. Durante o evento ocorre um concurso para alunos em que é escolhido o cartaz da edição do ano seguinte.</p>
+                            <a href="https://www.behance.net/gallery/38650503/Cartaz-29-FestUp" target="_blank">Projeto completo no Behance.</a>
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
+                        <img src="content/images/Restaurante_de_Molen.jpg" alt="" />
                         <div class="job-description">
-                            <h3>Nome do Projeto</h3>
-                            <p>Descrição curta do que foi feito.</p>
-                            <a href="#">Projeto completo no Behance.</a>
+                            <h3>Restaurante de Molen</h3>
+                            <p>A marca do restaurante de Molen foi inspirado nos trabalhos do artista holandês Escher. Ela tem como elemento central um moinho, elemento muito presente na paisagem holandesa.</p>
+                            <a href="https://www.behance.net/gallery/38683863/Restaurante-de-Molen" target="_blank">Projeto completo no Behance.</a>
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
+                        <img src="content/images/Fotografia_Publicitaria_I.jpg" alt="" />
                         <div class="job-description">
-                            <h3>Nome do Projeto</h3>
-                            <p>Descrição curta do que foi feito.</p>
-                            <a href="#">Projeto completo no Behance.</a>
+                            <h3>Fotografia Publicitária I</h3>
+                            <p>Trabalho apresentado à disciplina Fotografia do curso de Publicidade e Propaganda da Universidade de Taubaté durante o primeiro semestre.</p>
+                            <a href="https://www.behance.net/gallery/31751437/Fotografia-Publicitaria-I" target="_blank">Projeto completo no Behance.</a>
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
+                        <img src="content/images/Fotografia_Publicitaria_II.jpg" alt="" />
                         <div class="job-description">
-                            <h3>Nome do Projeto</h3>
-                            <p>Descrição curta do que foi feito.</p>
-                            <a href="#">Projeto completo no Behance.</a>
+                            <h3>Fotografia Publicitária II</h3>
+                            <p>Trabalho apresentado à disciplina Fotopublicidade do curso de Publicidade e Propaganda da Universidade de Taubaté durante o segundo semestre.</p>
+                            <a href="https://www.behance.net/gallery/31752109/Fotografia-Publicitaria-II" target="_blank">Projeto completo no Behance.</a>
                         </div>
                     </li>
                     <li class="job-thumbnail">
-                        <!-- <img src="assets/images/job.jpg" alt="" /> -->
+                        <img src="content/images/Matte_Leao.jpg" alt="" />
                         <div class="job-description">
-                            <h3>Nome do Projeto</h3>
-                            <p>Descrição curta do que foi feito.</p>
-                            <a href="#">Projeto completo no Behance.</a>
+                            <h3>Matte Leão</h3>
+                            <p>Trabalho apresentado à disciplina Fundamento de Design do curso de Publicidade e Propaganda da Universidade de Taubaté durante o primeiro semestre.</p>
+                            <a href="https://www.behance.net/gallery/31751785/Matte-Leao" target="_blank">Projeto completo no Behance.</a>
                         </div>
                     </li>
                 </ul>
