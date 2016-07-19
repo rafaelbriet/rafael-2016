@@ -278,9 +278,16 @@
     li {
         display: inline;
         margin-right: 20px;
+        color: white;
+        transition: color .2s ease-in;
 
         &:last-child {
             margin-right: 0;
+        }
+
+        &:hover {
+            cursor: pointer;
+            color: lighten(grey, 30%);
         }
     }
 

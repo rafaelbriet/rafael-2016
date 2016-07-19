@@ -724,9 +724,14 @@ p {
   line-height: 1; }
   .social-links li {
     display: inline;
-    margin-right: 20px; }
+    margin-right: 20px;
+    color: white;
+    transition: color .2s ease-in; }
     .social-links li:last-child {
       margin-right: 0; }
+    .social-links li:hover {
+      cursor: pointer;
+      color: #cdcdcd; }
   .social-links a {
     position: absolute;
     color: red;

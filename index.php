@@ -143,11 +143,11 @@
 
         <footer class="site-footer">
             <section class="social">
-                <h3 class="section-title">Siga-me nas redes sociais.</h3>
+                <h3 class="section-title">Siga-me nas redes sociais</h3>
                 <ul class="social-links">
-                    <li class="icon-linkedin-square"><a href="https://linkedin.com/in/rafaelbriet">LinkdIn</a></li>
-                    <li class="icon-instagram"><a href="https://www.instagram.com/rafael_briet/">Instagram</a></li>
-                    <li class="icon-behance-square"><a href="https://www.behance.net/rafaelbriet">Behance</a></li>
+                    <li class="icon-linkedin-square"><a href="https://linkedin.com/in/rafaelbriet" target="_blank">LinkdIn</a></li>
+                    <li class="icon-instagram"><a href="https://www.instagram.com/rafael_briet/" target="_blank">Instagram</a></li>
+                    <li class="icon-behance-square"><a href="https://www.behance.net/rafaelbriet" target="_blank">Behance</a></li>
                 </ul>
             </section>
 
