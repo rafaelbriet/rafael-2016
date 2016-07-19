@@ -30,7 +30,14 @@
 
         <main class="main">
             <section class="cover">
-                <img class="cover-image" src="assets/images/site-cover.png" alt="Imagem da capa do site" />
+                <picture class="cover-image">
+                    <source srcset="assets/images/420.jpg" media="(max-width: 420px)">
+                    <source srcset="assets/images/600.jpg" media="(max-width: 600px)">
+                    <source srcset="assets/images/700.jpg" media="(max-width: 700px)">
+                    <source srcset="assets/images/920.jpg" media="(max-width: 920px)">
+                    <img src="assets/images/1920.jpg">
+                </picture>
+                <!-- <img class="cover-image" src="assets/images/1920.jpg" alt="Imagem da capa do site" /> -->
                 <h2 class="site-description">Publicitátio nerd faminto por desafios.</h2>
             </section>
             <section class="about" id="about">
