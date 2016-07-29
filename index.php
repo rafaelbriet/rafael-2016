@@ -44,7 +44,7 @@
                 <h3 class="section-title">Quem sou eu.</h3>
                 <div class="container">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in mi et sapien hendrerit molestie. Pellentesque nibh dolor, mollis ac faucibus in, egestas non neque. Phasellus ut volutpat nulla. Proin non pretium lectus, ut iaculis odio. In sodales scelerisque tortor, at lacinia urna tincidunt ac. Proin in aliquet purus, non tristique dolor. Ut eu mi leo. Sed viverra sed tortor maximus accumsan.
+                        Olá! Meu nome é Rafael, tenho 24 anos. Possuo mais de cinco anos de experiência como designer gráfico e arte finalista. Sou apaixonado por tecnologia, internet, video game, música, cinema, livros. Estou sempre em busca de aprender algo. Por esse motivo me mudei para Taubaté, onde comecei a cursar a faculdade de Publicidade e Propaganda.
                     </p>
                 </div>
             </section>
