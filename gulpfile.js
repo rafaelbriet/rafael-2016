@@ -56,9 +56,7 @@ gulp.task('watch', function() {
 **************************************************/
 gulp.task('browser-sync', function() {
     browserSync.init({
-        server: {
-            baseDir: './',
-        }
+        proxy: 'http://rafaelbriet.dev/'
     });
 });
 
