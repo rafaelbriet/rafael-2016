@@ -1,0 +1,31 @@
+From 0290fef1bc9cc0696751dac1200f2a394d6e2e37 Mon Sep 17 00:00:00 2001
+From: Rafael Briet <rafael-briet@hotmail.com>
+Date: Fri, 29 Jul 2016 20:16:48 -0300
+Subject: [PATCH] =?UTF-8?q?Nome=20do=20site=20agora=20est=C3=A1=20em=20mai?=
+ =?UTF-8?q?=C3=BAscula.?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ style.css | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/style.css b/style.css
+index bfddbc8..898e363 100644
+--- a/style.css
++++ b/style.css
+@@ -460,7 +460,9 @@ p {
+             align-items: center; }
+ 
+ .site-name {
+-  margin: 0; }
++  margin: 0;
++  text-transform: uppercase;
++  font-weight: 700; }
+   .site-name a {
+     text-decoration: none;
+     color: white; }
+-- 
+2.9.0.windows.1
+
