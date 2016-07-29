@@ -460,7 +460,9 @@ p {
             align-items: center; }
 
 .site-name {
-  margin: 0; }
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700; }
   .site-name a {
     text-decoration: none;
     color: white; }
