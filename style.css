@@ -1,3 +1,19 @@
+@charset "UTF-8";
+/*
+Theme Name: Rafael Briet
+Theme URI: https://rafaelbriet.com.br
+Author: Rafael Briet
+Author URI: https://rafaelbriet.com.br
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: rafaelbriet
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -446,18 +462,14 @@ p {
   min-height: 80px; }
   .site-header .container {
     padding-top: 16px;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center; }
 
 .site-name {
   margin: 0;
@@ -512,9 +524,8 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
 
 @media (max-width: 600px) {
   .site-description {
@@ -548,15 +559,12 @@ p {
   padding: 0 10px;
   max-width: 1020px;
   list-style: none;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
 
 .job-thumbnail {
   width: 310px;
@@ -577,18 +585,14 @@ p {
   text-align: center;
   position: absolute;
   z-index: 99;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-flex-flow: column;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-pack: center;
+      justify-content: center;
   bottom: 100%;
   transition: bottom .3s ease; }
   .job-description h3 {
@@ -726,17 +730,17 @@ p {
   line-height: 1; }
   .social-links li {
     display: inline;
-    margin-right: 20px;
-    color: white;
-    transition: color .2s ease-in; }
+    margin-right: 20px; }
     .social-links li:last-child {
       margin-right: 0; }
-    .social-links li:hover {
-      cursor: pointer;
-      color: #cdcdcd; }
   .social-links a {
+    color: white;
+    text-decoration: none;
+    transition: color .2s ease-in; }
+    .social-links a:hover {
+      color: #cdcdcd; }
+  .social-links .social-link-text {
     position: absolute;
-    color: red;
     left: -100%; }
 
 /*# sourceMappingURL=style.css.map */
