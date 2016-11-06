@@ -101,7 +101,7 @@
 
 	submitBtn.addEventListener('click', function() {
 		if (validateForm()) {
-			sendRequest('mail.php');
+			sendRequest('/includes/mail.php');
 		}
 	});
 
