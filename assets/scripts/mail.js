@@ -101,7 +101,7 @@
 
 	submitBtn.addEventListener('click', function() {
 		if (validateForm()) {
-			sendRequest('/includes/mail.php');
+			sendRequest('/wp-content/themes/rafaelbriet/includes/mail.php');
 		}
 	});
 
