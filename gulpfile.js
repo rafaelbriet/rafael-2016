@@ -24,7 +24,7 @@ gulp.task('styles', function() {
                 output: 'expanded',
             }).on('Error', sass.logError))
             .pipe(autoprefixer({
-                browsers: ['last 3 versions'],
+                browsers: ['last 4 versions'],
             }))
         .pipe(sourcemaps.write('/'))
         .pipe(gulp.dest('./'));

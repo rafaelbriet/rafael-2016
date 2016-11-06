@@ -1,3 +1,4 @@
+<?php /* Template Name: Blog Page */ ?>
 <?php get_header(); ?>
 
 <?php
@@ -10,7 +11,7 @@ if (have_posts()) {
 	<div class="post-cover"><?php the_post_thumbnail(); ?></div>
 	<div class="container">
 		<div class="post-header">
-			<h1 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+			<h1 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?><a></h1>
 			<p class="post-date"><?php the_date(); ?></p>
 		</div>
 		<div class"post-content"><?php the_excerpt(); ?></div>
@@ -25,9 +26,7 @@ if (have_posts()) {
 		'next_text'          => 'Próxima',
 		'before_page_number' => '<span class="meta-nav screen-reader-text"></span>',
 	) );
-} else {
-	echo 'Este blog ainda está vazio.';
-}
+} //endif
 ?>
 
 <?php get_footer(); ?>

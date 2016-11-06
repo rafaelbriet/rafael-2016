@@ -6,10 +6,8 @@ html {
   box-sizing: inherit;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1020px;
-    padding: 0 10px;
+img {
+    max-width: 100%;
 }
 
 .clearfix:before,
@@ -20,4 +18,10 @@ html {
 
 .clearfix:after {
     clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1020px;
+    padding: 0 10px;
 }
