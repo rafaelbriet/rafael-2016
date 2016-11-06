@@ -15,14 +15,14 @@
 			errorMessage;
 
 		function addErrorMessage(parent) {
-			errorMessage = parent.nextElementSibling;
+			errorMessage = document.querySelector('.error-message');
 			errorMessage.classList.remove('hide');
 			errorMessage.classList.add('show');
 			parent.classList.add('input-error');
 		}
 
 		function removeErrorMessage(parent) {
-			errorMessage = parent.nextElementSibling;
+			errorMessage = document.querySelector('.error-message');
 			errorMessage.classList.remove('show');
 			errorMessage.classList.add('hide');
 			parent.classList.remove('input-error');

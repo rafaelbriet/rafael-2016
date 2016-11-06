@@ -4,7 +4,7 @@
 function rafaelbriet_enque_scripts() {
     wp_enqueue_style('core-style', get_stylesheet_uri());
 
-    if (is_front_page()) {
+    if (is_front_page() || is_404()) {
         wp_enqueue_script('contact-script', get_template_directory_uri() . '/assets/scripts/mail.js', array(), '1.0.0', true);
     }
 
